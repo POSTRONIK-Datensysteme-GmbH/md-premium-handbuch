@@ -2,7 +2,7 @@
 
 Guías del **software de caja XMPS** de POStronik: uso en ventas y cierres.
 
-Los pasos detallados y los vídeos están en la página de soporte de POStronik. Aquí encontrará un resumen con enlaces.
+Todos los pasos se describen en este manual.
 
 ## Uso
 
@@ -18,4 +18,4 @@ Declaración de fondo de caja, retiradas de efectivo, recuento de caja, ticket n
 
 ---
 
-*Fuente: [Soporte POStronik](https://support.postronik.at/help/de-de/14-bedienung) – Software de caja XMPS*
+*POStronik Datensysteme – Software de caja XMPS*

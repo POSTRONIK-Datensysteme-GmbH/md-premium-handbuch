@@ -2,7 +2,7 @@
 
 Uputstva za **XMPS softver za kasu** od POStronika: rad u prodaji i zatvaranja.
 
-Detaljni koraci i video snimci su na stranici za podršku POStronik. Ovde su teme pregledno povezane.
+Svi koraci su opisani u ovom priručniku.
 
 ## Rad na kasi
 
@@ -18,4 +18,4 @@ Deklaracija početnog stanja, odliv gotovine, prebrojavanje, null račun, godiš
 
 ---
 
-*Izvor: [POStronik podrška](https://support.postronik.at/help/de-de/14-bedienung) – XMPS softver za kasu*
+*POStronik Datensysteme – XMPS softver za kasu*

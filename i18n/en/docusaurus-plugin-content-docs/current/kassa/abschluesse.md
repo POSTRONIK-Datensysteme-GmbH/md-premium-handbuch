@@ -1,25 +1,108 @@
 # XMPS Closing procedures
 
-Overview of XMPS till closing topics. Detailed guides and videos: **POStronik Support** → [Closing procedures](https://support.postronik.at/help/de-de/15-abschlusse).
+Overview and guides for XMPS till closing. All steps are described in this handbook.
 
-| Topic | Short description | Guide |
-|-------|-------------------|-------|
-| **Change fund declaration** | Declare opening float at start of shift; do after log-in | [Change fund](https://support.postronik.at/help/de-de/15-abschlusse/47-wechselgelddeklaration) · [Video](https://youtu.be/7mZSyFPkba8) |
-| **Cash withdrawal** | Declare cash taken (bank deposits); after each withdrawal, summed until end-of-day | [Cash withdrawal](https://support.postronik.at/help/de-de/15-abschlusse/48-geldabschopfung) · [Video](https://youtu.be/DibTxGMyNR8) |
-| **Cash count** | Declare current drawer contents; any time, e.g. after shift or till check | [Cash count](https://support.postronik.at/help/de-de/15-abschlusse/49-geldzahlung) · [Video](https://youtu.be/F2qFLIu8zEQ) |
-| **Zero receipt** | "FUNKT" screen → X/Z → YES (Mode X1) → 9811 [YES]; e.g. for tax audit | [Zero receipt](https://support.postronik.at/help/de-de/15-abschlusse/1-nullbeleg) · [Video](https://youtu.be/G5M6xz0H0A4) |
-| **Annual receipt** | "FUNKT" screen → X/Z → YES (Mode X1) → 9833 [YES]; report to FinanzOnline | [Annual receipt](https://support.postronik.at/help/de-de/15-abschlusse/3-jahresbeleg) · [Video](https://youtu.be/DDohE6W_aVE) |
-| **Card terminal end-of-day** | Required daily for card terminal (possibly TES card); Function → X/Z → Z → YES → 9898 → Subtotal | [Card terminal EOD](https://support.postronik.at/help/de-de/15-abschlusse/69-bankomat-tagesabschluss) |
+## Overview
 
-## Images from POStronik guides
+| Topic | Short description |
+|-------|-------------------|
+| [Change fund declaration](#change-fund-declaration) | Declare opening float at start of shift |
+| [Cash withdrawal](#cash-withdrawal) | Declare cash taken (bank deposits) |
+| [Cash count](#cash-count) | Declare current drawer contents |
+| [Zero receipt](#zero-receipt) | e.g. for tax audit |
+| [Annual receipt](#annual-receipt) | Report to FinanzOnline |
+| [Card terminal end-of-day](#card-terminal-end-of-day) | Daily for B-K terminal |
 
-**Card terminal end-of-day** (Source: POStronik Support)
+---
 
-![Card terminal EOD 1 – POStronik](https://support.postronik.at/api/v1/attachments/191)
+## Change fund declaration
 
-![Card terminal EOD 2 – POStronik](https://support.postronik.at/api/v1/attachments/192)
+Declare the **opening float** at cashier log-in. Must be done **after each cashier log-in**.
 
-![Card terminal EOD 3 – POStronik](https://support.postronik.at/api/v1/attachments/193)
+**Steps:**
+
+1. Go to **"FUNKTION"** screen  
+2. Enter amount  
+3. Press **Change fund**  
+4. Press **Cash**  
+5. Press **ESC**  
+
+---
+
+## Cash withdrawal
+
+Declare **cash withdrawals** (bank deposits). Do **after each** withdrawal. Amounts are summed until end-of-day.
+
+**Steps:**
+
+1. Go to **"FUNKTION"** screen  
+2. Enter amount  
+3. Press **Cash withdrawal**  
+4. Press **Cash**  
+5. Press **ESC**  
+
+---
+
+## Cash count
+
+Declare **current drawer contents**. Can be done any time; each declaration overwrites the previous. Use e.g. at end of shift or for till check (compare expected vs. declared).
+
+**Steps:**
+
+1. Go to **"FUNKTION"** screen  
+2. Enter amount  
+3. Press **Cash count**  
+4. Press **Cash**  
+5. Press **ESC**  
+
+---
+
+## Zero receipt
+
+Receipt with no sale (e.g. for tax authority).
+
+**Steps:**
+
+1. Select **"FUNKT"** screen  
+2. Press **"X/Z"**  
+3. Press **"YES"** (for mode X1)  
+4. Enter **9811** and confirm **[YES]**  
+
+---
+
+## Annual receipt
+
+Annual receipt must be reported to **FinanzOnline**.
+
+**Steps:**
+
+1. Select **"FUNKT"** screen  
+2. Press **"X/Z"**  
+3. Press **"YES"** (for mode X1)  
+4. Enter **9833** and confirm **[YES]**  
+
+---
+
+## Card terminal end-of-day
+
+When using card terminal functions, a **daily end-of-day** for the B-K terminal is required. Depending on configuration, a **TES card** may be required (see B-K terminal manual). Only after a successful end-of-day is the payment transfer to the merchant account released.
+
+B-K end-of-day can be done independently of till end-of-day. It must be done at **each** till. The XMPS prints an end-of-day report (compare B-K total vs. till).
+
+![Card terminal EOD 1](/img/docs/kassa/bankomat-tagesabschluss-1.png)
+
+![Card terminal EOD 2](/img/docs/kassa/bankomat-tagesabschluss-2.png)
+
+![Card terminal EOD 3](/img/docs/kassa/bankomat-tagesabschluss-3.png)
+
+**Steps:**
+
+1. Open **"Function"** level  
+2. Press **"X/Z"**  
+3. Select **"Z"** mode and confirm with **"YES"**  
+4. Enter **9898** and confirm with **"Subtotal"**  
+
+---
 
 ## Related topics
 

@@ -1,60 +1,218 @@
 # XMPS Bedienung
 
-Übersicht der Bedienungsthemen der XMPS Kassensoftware. Detaillierte Anleitungen und Videos: **POStronik Support** → [Bedienung](https://support.postronik.at/help/de-de/14-bedienung).
+Übersicht und Anleitungen zu den Bedienungsthemen der XMPS Kassensoftware. Alle Schritte sind in diesem Handbuch beschrieben.
 
-| Thema | Kurzbeschreibung | Anleitung |
-|-------|------------------|-----------|
-| **Anmelden / Abmelden** | Kasse für Kassier nutzen | [Bedienung (Übersicht)](https://support.postronik.at/help/de-de/14-bedienung) |
-| **Multiplikation bei Verkaufsvorgängen** | Mehrere gleiche Artikel: Menge eingeben → Taste „X“ → Artikel scannen oder PLU eingeben | [Multiplikation](https://support.postronik.at/help/de-de/14-bedienung/54-multiplikation-bei-verkaufsvorgangen) · [Video](https://youtu.be/JbhuffXc7ss) |
-| **Manuelle Verbuchung (PLU)** | PLU- oder EAN-Nr. eingeben → PLU/EAN-Taste | [PLU-Taste](https://support.postronik.at/help/de-de/14-bedienung/52-manuelle-verbuchung-von-artikeln-uber-plu-taste) · [Video](https://youtu.be/nz-v3yCnvZA) |
-| **Storno** | Taste Storno → zu stornierenden Artikel erneut bonieren (nur jeweils letzter Artikel) | [Storno](https://support.postronik.at/help/de-de/14-bedienung/57-storno) · [Video](https://youtu.be/WCb3dXabpJM) |
-| **Bon-Abbruch** | Aufrechnung abbrechen, alle Artikel storniert; z. B. bei mehreren Fehlern | [Bon-Abbruch](https://support.postronik.at/help/de-de/14-bedienung/58-bon-abbruch) · [Video](https://youtu.be/UGTz2CSr82E) |
-| **Aus- oder Einzahlung** | Seite „FUNKTION“ → Betrag eingeben → Taste Einzahlung oder Auszahlung (z. B. Nachnahme) | [Aus-/Einzahlung](https://support.postronik.at/help/de-de/14-bedienung/55-aus-oder-einzahlung-buchen) · [Video](https://youtu.be/syl1nxaN7A0) |
-| **Lade öffnen / Kein Verkauf** | Geldlade ohne Registrierung öffnen (z. B. Wechselgeld) | [Lade öffnen](https://support.postronik.at/help/de-de/14-bedienung/56-lade-offnen-kein-verkauf) |
-| **Kassenverbund wiederherstellen** | Nach Netzwerkstörung: Modus „X“ → 4301 → Zwischensumme → Bericht druckt → REG 1 | [Kassenverbund](https://support.postronik.at/help/de-de/14-bedienung/24-kassenverbund-wiederherstellen) |
-| **Artikel-Retouren** | Retour → Artikel scannen/EAN eingeben → Bar abschließen (Lager & Summenspeicher Korrektur) | [Retouren](https://support.postronik.at/help/de-de/14-bedienung/59-artikel-retouren) |
-| **Nachlass Betrag** | Artikel/PLU oder Zwischensumme → Nachlassbetrag eingeben → Taste Nachlass Betrag | [Nachlass Betrag](https://support.postronik.at/help/de-de/14-bedienung/63-nachlass-betrag) |
-| **Rabatt** | Artikel/PLU oder Zwischensumme → Rabatt in % eingeben → Taste Rabatt (ggf. fest programmiert) | [Rabatt](https://support.postronik.at/help/de-de/14-bedienung/64-rabatt) |
-| **Kunde parken** | Aufrechnung unterbrechen, anderen Kunden bedienen → „Kunde parken“ / „Kunde fortsetzen“ | [Kunde parken](https://support.postronik.at/help/de-de/14-bedienung/65-kunde-parken) |
-| **Krediteinkäufe** | Kundennummer → Kunden → Artikel scannen → Zwischensumme → Kredit | [Krediteinkäufe](https://support.postronik.at/help/de-de/14-bedienung/66-krediteinkaufe-mit-kundennummer) |
-| **Kundeneinzahlungen (Akonto)** | Kundennummer → Akonto → Betrag → Bar → ESC | [AKONTO](https://support.postronik.at/help/de-de/14-bedienung/67-kundeneinzahlungen-mit-akonto) |
-| **Kundenkonto + / –** | Saldo ändern ohne Bargeld (z. B. Banküberweisung): Kundennummer → Kundenkonto – → Betrag → Kundenkonto – | [Kundenkonto +/–](https://support.postronik.at/help/de-de/14-bedienung/68-kundenkonto-kundenkonto) |
+## Übersicht
 
-## Abbildungen aus den POStronik-Anleitungen
+| Thema | Kurzbeschreibung |
+|-------|------------------|
+| [Anmelden / Abmelden](#anmelden--abmelden) | Kasse für Kassier nutzen |
+| [Multiplikation bei Verkaufsvorgängen](#multiplikation-bei-verkaufsvorgängen) | Mehrere gleiche Artikel auf einmal buchen |
+| [Manuelle Verbuchung (PLU)](#manuelle-verbuchung-plu) | PLU- oder EAN-Nr. eingeben |
+| [Storno](#storno) | Artikel stornieren (nur letzter Artikel) |
+| [Bon-Abbruch](#bon-abbruch) | Aufrechnung komplett abbrechen |
+| [Aus- oder Einzahlung](#aus--oder-einzahlung) | z. B. Nachnahme buchen |
+| [Lade öffnen / Kein Verkauf](#lade-öffnen--kein-verkauf) | Geldlade ohne Registrierung öffnen |
+| [Kassenverbund wiederherstellen](#kassenverbund-wiederherstellen) | Nach Netzwerkstörung |
+| [Artikel-Retouren](#artikel-retouren) | Zurückgenommene Artikel verbuchen |
+| [Nachlass Betrag](#nachlass-betrag) | Betragsmäßigen Abzug buchen |
+| [Rabatt](#rabatt) | Prozentualen Abzug buchen |
+| [Kunde parken](#kunde-parken) | Aufrechnung unterbrechen, anderen Kunden bedienen |
+| [Krediteinkäufe](#krediteinkäufe-mit-kundennummer) | Auf Kundenkonto verkaufen |
+| [Kundeneinzahlungen (Akonto)](#kundeneinzahlungen-mit-akonto) | Zahlung auf Kundenkonto verbuchen |
+| [Kundenkonto + / –](#kundenkonto--kundenkonto--) | Saldo ohne Bargeld ändern (z. B. Überweisung) |
 
-Die folgenden Bilder stammen von der POStronik-Supportseite und zeigen die jeweiligen Schritte in der XMPS.
+---
 
-**Anmelden / Abmelden**
+## Anmelden / Abmelden
 
-![Anmelden Abmelden – POStronik](https://support.postronik.at/api/v1/attachments/170)
+Kasse für einen Kassier freigeben bzw. wieder abmelden.
 
-**Artikel-Retouren**
+![Anmelden Abmelden](/img/docs/kassa/anmelden-abmelden.png)
 
-![Artikel-Retouren – POStronik](https://support.postronik.at/api/v1/attachments/189)
+---
 
-**Nachlass Betrag**
+## Multiplikation bei Verkaufsvorgängen
 
-![Nachlass Betrag – POStronik](https://support.postronik.at/api/v1/attachments/187)
+Werden mehrere gleiche Artikel verkauft, kann vor der Bonierung multipliziert werden: zuerst die **Anzahl** eingeben, dann die Taste **X/Datum** drücken. Anschließend Artikel scannen, PLU-Nummer eingeben oder Warengruppenbonierung nutzen.
 
-**Rabatt**
+**Schritte:**
 
-![Rabatt – POStronik](https://support.postronik.at/api/v1/attachments/188)
+1. Menge eingeben  
+2. Taste **„X“** betätigen  
+3. Artikel scannen oder PLU/EAN eingeben  
 
-**Kunde parken**
+Wurde ein Artikel gescannt oder per PLU aufgerufen, wird er nach jedem erneuten Drücken der Taste **PLU** wiederholt.
 
-![Kunde parken – POStronik](https://support.postronik.at/api/v1/attachments/186)
+---
 
-**Krediteinkäufe mit Kundennummer**
+## Manuelle Verbuchung (PLU)
 
-![Krediteinkäufe – POStronik](https://support.postronik.at/api/v1/attachments/185)
+- PLU- oder EAN-Nr. über Ziffernblock eingeben  
+- Taste **PLU / EAN** betätigen  
 
-**Kundeneinzahlungen mit AKONTO**
+---
 
-![Kundeneinzahlungen AKONTO – POStronik](https://support.postronik.at/api/v1/attachments/184)
+## Storno
 
-**Kundenkonto +, Kundenkonto –**
+Mit der Taste **Storno** können Artikel storniert werden, die in der Aufrechnung weiter zurück liegen. Zuerst die Taste **Storno** drücken, anschließend den zu stornierenden Artikel **nochmals bonieren**.
 
-![Kundenkonto plus minus – POStronik](https://support.postronik.at/api/v1/attachments/190)
+:::caution
+Die Funktion gilt nur für den **jeweils nächsten** (zuletzt bonierten) Artikel.
+:::
+
+**Schritte:**
+
+1. Artikel auswählen (der zu stornierende muss zuletzt boniert sein)  
+2. Taste **„Storno“** betätigen  
+
+---
+
+## Bon-Abbruch
+
+Über die Taste **Abbruch** kann eine Aufrechnung jederzeit abgebrochen werden. Alle in der Aufrechnung bonierten Artikel gelten als storniert, die Summenspeicher werden bereinigt. Sinnvoll z. B. wenn in einer Aufrechnung mehrere Fehler auftreten – dann den Vorgang abbrechen und von neuem beginnen.
+
+**Schritt:** Taste **„Abbruch“** betätigen  
+
+---
+
+## Aus- oder Einzahlung
+
+Buchen einer Auszahlung (z. B. Annahme einer Nachnahmesendung) oder Einzahlung.
+
+**Schritte:**
+
+1. Auf der Seite **„FUNKTION“** wechseln  
+2. Betrag eingeben  
+3. Taste **„Einzahlung“** oder **„Auszahlung“** betätigen  
+
+---
+
+## Lade öffnen / Kein Verkauf
+
+Zum Geldwechseln oder aus anderen Gründen die Geldlade **ohne** eine Registrierung öffnen.
+
+**Schritt:** Taste **„Lade auf / Kein Verkauf“** betätigen – die Schublade öffnet sich.
+
+---
+
+## Kassenverbund wiederherstellen
+
+Nach einer Verbundstörung (z. B. Netzwerkausfall) die Kassen wieder verbinden.
+
+**Schritte:**
+
+1. Kasse in den Modus **„X“** bringen  
+2. **4301** eingeben  
+3. **„Zwischensumme“** drücken  
+4. Die Kasse druckt einen Bericht über alle im Netzwerk vorhandenen Kassen  
+5. Kasse in den Modus **„REG 1“** bringen  
+
+---
+
+## Artikel-Retouren
+
+Bereits verkaufte Artikel werden wieder zurückgenommen – Lagerbestand und Summenspeicher müssen korrigiert werden. Auch um Fehler zu korrigieren, die erst nach Bonabschluss auffallen (z. B. falscher Preis, versehentlich boniert).
+
+![Artikel-Retouren](/img/docs/kassa/artikel-retouren.png)
+
+**Schritte:**
+
+1. Taste **„Retour“** betätigen  
+2. Artikel scannen oder EAN eingeben  
+3. Mit Taste **„Bar“** abschließen  
+
+---
+
+## Nachlass Betrag
+
+Betragsmäßiger Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechnung.
+
+**Schritte:**
+
+1. Artikel scannen oder PLU/EAN eingeben (oder nach **Zwischensumme** für die ganze Aufrechnung)  
+2. Nachlass-**Betrag** eingeben  
+3. Taste **„Nachlass Betrag“** betätigen  
+
+![Nachlass Betrag](/img/docs/kassa/nachlass-betrag.png)
+
+---
+
+## Rabatt
+
+Prozentualer Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechnung. Die Taste **Rabatt** kann mit einem festen Prozentsatz programmiert sein; wird ein Prozentsatz eingegeben, überschreibt er den voreingestellten Satz.
+
+**Schritte:**
+
+1. Artikel scannen oder PLU/EAN eingeben (oder nach **Zwischensumme** für die ganze Aufrechnung)  
+2. Rabatt in **%** eingeben  
+3. Taste **„Rabatt“** betätigen  
+
+![Rabatt](/img/docs/kassa/rabatt.png)
+
+---
+
+## Kunde parken
+
+Ein Kunde kann „geparkt“ werden, wenn er während des Registriervorgangs noch einen Artikel holen geht – inzwischen kann ein neuer Kunde bedient werden.
+
+**Zum Parken:** Taste **„Kunde parken“** betätigen  
+
+**Zum Fortsetzen:** Taste **„Kunde fortsetzen“** betätigen  
+
+![Kunde parken](/img/docs/kassa/kunde-parken.png)
+
+---
+
+## Krediteinkäufe mit Kundennummer
+
+Verkauf auf Kundenkonto (Kredit). Der Saldo wird nach Abschluss auf dem Kundenkonto gespeichert.
+
+**Schritte:**
+
+1. Kundennummer eingeben  
+2. Taste **„Kunden“** betätigen  
+3. Artikel scannen  
+4. Taste **„Zwischensumme“** betätigen  
+5. Taste **„Kredit“** betätigen  
+
+![Krediteinkäufe](/img/docs/kassa/krediteinkaeufe.png)
+
+---
+
+## Kundeneinzahlungen mit AKONTO
+
+Einzahlung zur Verminderung des offenen Kundensaldos (z. B. Teilzahlung).
+
+**Schritte:**
+
+1. Kundennummer eingeben  
+2. Taste **„Akonto“** betätigen  
+3. Betrag eingeben  
+4. Taste **„BAR“** betätigen  
+5. Taste **„ESC“** betätigen  
+
+![Kundeneinzahlungen AKONTO](/img/docs/kassa/kundeneinzahlungen-akonto.png)
+
+---
+
+## Kundenkonto +, Kundenkonto –
+
+Saldo des Kunden ändern, **ohne** den Bargeld-Ladenbestand zu ändern (z. B. Kunde zahlt per Banküberweisung).
+
+- **Kundenkonto –** reduziert die ausstehende Forderung beim Kunden.  
+- **Kundenkonto +** erhöht die ausstehende Forderung beim Kunden.  
+
+**Schritte:**
+
+1. Kundennummer eingeben  
+2. Taste **„Kundenkonto –“** (oder **„Kundenkonto +“**) betätigen  
+3. Betrag eingeben  
+4. Taste **„Kundenkonto –“** (bzw. **„Kundenkonto +“**) erneut betätigen  
+
+![Kundenkonto plus minus](/img/docs/kassa/kundenkonto-plus-minus.png)
+
+---
 
 ## Verwandte Themen
 

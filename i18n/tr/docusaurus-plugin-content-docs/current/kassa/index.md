@@ -2,7 +2,7 @@
 
 POStronik **XMPS kasa yazılımı** kılavuzları: satışta kullanım ve kapanış işlemleri.
 
-Ayrıntılı adımlar ve videolar POStronik destek sayfasındadır. Burada konular özet ve bağlantılarla sunulmuştur.
+Tüm adımlar bu kılavuzda açıklanmıştır.
 
 ## Kullanım
 
@@ -18,4 +18,4 @@ Kasa açılış bildirimi, para çekme, sayım, sıfır fişi, yıllık fiş ve 
 
 ---
 
-*Kaynak: [POStronik Destek](https://support.postronik.at/help/de-de/14-bedienung) – XMPS kasa yazılımı*
+*POStronik Datensysteme – XMPS kasa yazılımı*

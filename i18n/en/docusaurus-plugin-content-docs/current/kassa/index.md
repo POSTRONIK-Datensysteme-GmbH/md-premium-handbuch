@@ -1,8 +1,6 @@
 # Cash Register (XMPS)
 
-Guides for **XMPS till software** from POStronik: daily operation and closing procedures.
-
-Detailed steps and videos are on the POStronik support site. Here you find an overview with links.
+Guides for **XMPS till software** from POStronik: daily operation and closing procedures. All steps are described in this handbook.
 
 ## Operation
 
@@ -18,4 +16,4 @@ Change fund declaration, cash withdrawal, cash count, zero receipt, annual recei
 
 ---
 
-*Source: [POStronik Support](https://support.postronik.at/help/de-de/14-bedienung) – XMPS till software*
+*POStronik Datensysteme – XMPS till software*

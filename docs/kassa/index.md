@@ -1,8 +1,6 @@
 # Kassa (XMPS)
 
-Anleitungen zur **XMPS Kassensoftware** von POStronik: Bedienung im Verkauf und Abschlüsse.
-
-Die detaillierten Schritte und Videos finden Sie auf der POStronik-Supportseite. Hier sind die Themen übersichtlich verlinkt.
+Anleitungen zur **XMPS Kassensoftware** von POStronik: Bedienung im Verkauf und Abschlüsse. Alle Schritte sind in diesem Handbuch beschrieben.
 
 ## Bedienung
 
@@ -18,4 +16,4 @@ Wechselgelddeklaration, Geldabschöpfung, Geldzählung, Nullbeleg, Jahresbeleg u
 
 ---
 
-*Quelle: [POStronik Support](https://support.postronik.at/help/de-de/14-bedienung) – XMPS Kassensoftware*
+*POStronik Datensysteme – XMPS Kassensoftware*
