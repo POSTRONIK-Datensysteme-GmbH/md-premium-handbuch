@@ -17,3 +17,11 @@
 
 - [ایجاد کالای جدید (کالای خارجی)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [چاپ برچسب](/docs/stammdaten/etiketten-drucken)
+
+## مشتریان
+
+- [ایجاد مشتری](/docs/stammdaten/kunden-erstellen)
+
+## تأمین‌کنندگان
+
+- [ایجاد تأمین‌کننده](/docs/stammdaten/lieferanten-erstellen)

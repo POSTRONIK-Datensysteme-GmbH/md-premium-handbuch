@@ -17,3 +17,11 @@ Bu bölümde MD-Premium'da ürünler ve temel verilerle ilgili kılavuzlar bulun
 
 - [Yeni ürün oluşturma (harici ürün)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [Etiket yazdırma](/docs/stammdaten/etiketten-drucken)
+
+## Müşteriler
+
+- [Müşteri oluşturma](/docs/stammdaten/kunden-erstellen)
+
+## Tedarikçiler
+
+- [Tedarikçi oluşturma](/docs/stammdaten/lieferanten-erstellen)

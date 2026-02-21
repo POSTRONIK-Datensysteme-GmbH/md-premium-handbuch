@@ -17,3 +17,11 @@ This section contains guides on articles and master data in MD-Premium.
 
 - [Create new article (external article)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [Print labels](/docs/stammdaten/etiketten-drucken)
+
+## Customers
+
+- [Create customer](/docs/stammdaten/kunden-erstellen)
+
+## Suppliers
+
+- [Create supplier](/docs/stammdaten/lieferanten-erstellen)

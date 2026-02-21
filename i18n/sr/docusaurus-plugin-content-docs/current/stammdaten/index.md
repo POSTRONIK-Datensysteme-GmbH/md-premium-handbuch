@@ -17,3 +17,11 @@ U ovoj sekciji: vodiči za artikle i osnovne podatke u MD-Premiumu.
 
 - [Kreiranje novog artikla (spoljni artikal)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [Štampa etiketa](/docs/stammdaten/etiketten-drucken)
+
+## Kupci
+
+- [Kreiranje kupca](/docs/stammdaten/kunden-erstellen)
+
+## Dobavljači
+
+- [Kreiranje dobavljača](/docs/stammdaten/lieferanten-erstellen)

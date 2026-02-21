@@ -17,3 +17,11 @@ En esta sección encontrará guías sobre artículos y datos maestros en MD-Prem
 
 - [Crear nuevo artículo (artículo externo)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [Imprimir etiquetas](/docs/stammdaten/etiketten-drucken)
+
+## Clientes
+
+- [Crear cliente](/docs/stammdaten/kunden-erstellen)
+
+## Proveedores
+
+- [Crear proveedor](/docs/stammdaten/lieferanten-erstellen)
