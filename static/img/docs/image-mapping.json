@@ -1,0 +1,238 @@
+﻿{
+    "zeitungen/vorremission-aus-lieferscheinen":  [
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-1.png",
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-2.png",
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-3.png",
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-4.png",
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-5.png",
+                                                      "/img/docs/zeitungen-vorremission-aus-lieferscheinen-6.png"
+                                                  ],
+    "zeitungen/remissionen":  [
+                                  "/img/docs/zeitungen-remissionen-1.png",
+                                  "/img/docs/zeitungen-remissionen-2.png",
+                                  "/img/docs/zeitungen-remissionen-3.png",
+                                  "/img/docs/zeitungen-remissionen-4.png"
+                              ],
+    "stammdaten/bestehende-artikel-verkaufspreis-aendern":  [
+                                                                "/img/docs/stammdaten-bestehende-artikel-verkaufspreis-aendern-1.png",
+                                                                "/img/docs/stammdaten-bestehende-artikel-verkaufspreis-aendern-2.png"
+                                                            ],
+    "zeitungen/lieferdifferenzen-erfassen":  [
+                                                 "/img/docs/zeitungen-lieferdifferenzen-erfassen-1.png",
+                                                 "/img/docs/zeitungen-lieferdifferenzen-erfassen-2.png",
+                                                 "/img/docs/zeitungen-lieferdifferenzen-erfassen-3.png",
+                                                 "/img/docs/zeitungen-lieferdifferenzen-erfassen-4.png"
+                                             ],
+    "zeitungen/vorremission-mit-barcode":  [
+                                               "/img/docs/zeitungen-vorremission-mit-barcode-1.png",
+                                               "/img/docs/zeitungen-vorremission-mit-barcode-2.png",
+                                               "/img/docs/zeitungen-vorremission-mit-barcode-3.png",
+                                               "/img/docs/zeitungen-vorremission-mit-barcode-4.png",
+                                               "/img/docs/zeitungen-vorremission-mit-barcode-5.png"
+                                           ],
+    "auftrag-lieferanten/offene-lieferantenlieferscheine-uebernehmen":  [
+                                                                            "/img/docs/auftrag-lieferanten-offene-lieferantenlieferscheine-uebernehmen-1.png",
+                                                                            "/img/docs/auftrag-lieferanten-offene-lieferantenlieferscheine-uebernehmen-2.png",
+                                                                            "/img/docs/auftrag-lieferanten-offene-lieferantenlieferscheine-uebernehmen-3.png",
+                                                                            "/img/docs/auftrag-lieferanten-offene-lieferantenlieferscheine-uebernehmen-4.png",
+                                                                            "/img/docs/auftrag-lieferanten-offene-lieferantenlieferscheine-uebernehmen-5.png"
+                                                                        ],
+    "auftrag-kunden/warenschwund-erfassen":  [
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-1.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-2.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-3.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-4.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-5.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-6.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-7.png",
+                                                 "/img/docs/auftrag-kunden-warenschwund-erfassen-8.png"
+                                             ],
+    "auftrag-lieferanten/lieferantenbeleg-erfassen":  [
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-1.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-2.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-3.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-4.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-5.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-6.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-7.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-8.png",
+                                                          "/img/docs/auftrag-lieferanten-lieferantenbeleg-erfassen-9.png"
+                                                      ],
+    "stammdaten/bestehende-artikel-suchen-warengruppe":  [
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-warengruppe-1.png",
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-warengruppe-2.png",
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-warengruppe-3.png"
+                                                         ],
+    "auftrag-lieferanten/lieferanten-gutschrift":  [
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-gutschrift-1.png",
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-gutschrift-2.png",
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-gutschrift-3.png"
+                                                   ],
+    "auftrag-kunden/md-auftrag-erstellen":  [
+                                                "/img/docs/auftrag-kunden-md-auftrag-erstellen-1.png",
+                                                "/img/docs/auftrag-kunden-md-auftrag-erstellen-2.png",
+                                                "/img/docs/auftrag-kunden-md-auftrag-erstellen-3.png",
+                                                "/img/docs/auftrag-kunden-md-auftrag-erstellen-4.png"
+                                            ],
+    "inventur/inventurdaten-zuruecksetzen":  [
+                                                 "/img/docs/inventur-inventurdaten-zuruecksetzen-1.png"
+                                             ],
+    "stammdaten/bestehende-artikel-einkaufspreis-aendern":  [
+                                                                "/img/docs/stammdaten-bestehende-artikel-einkaufspreis-aendern-1.png",
+                                                                "/img/docs/stammdaten-bestehende-artikel-einkaufspreis-aendern-2.png"
+                                                            ],
+    "inventur/inventur-allgemein":  [
+                                        "/img/docs/inventur-inventur-allgemein-1.png"
+                                    ],
+    "stammdaten/bestehende-artikel-suchen-barcode":  [
+                                                         "/img/docs/stammdaten-bestehende-artikel-suchen-barcode-1.png",
+                                                         "/img/docs/stammdaten-bestehende-artikel-suchen-barcode-2.png"
+                                                     ],
+    "auftrag-lieferanten/lieferanten-bestellung-aus-vorschlag":  [
+                                                                     "/img/docs/auftrag-lieferanten-lieferanten-bestellung-aus-vorschlag-1.png",
+                                                                     "/img/docs/auftrag-lieferanten-lieferanten-bestellung-aus-vorschlag-2.png",
+                                                                     "/img/docs/auftrag-lieferanten-lieferanten-bestellung-aus-vorschlag-3.png",
+                                                                     "/img/docs/auftrag-lieferanten-lieferanten-bestellung-aus-vorschlag-4.png"
+                                                                 ],
+    "zeitungen/retourenaufruf-mde":  [
+                                         "/img/docs/zeitungen-retourenaufruf-mde-1.png",
+                                         "/img/docs/zeitungen-retourenaufruf-mde-2.png",
+                                         "/img/docs/zeitungen-retourenaufruf-mde-3.png",
+                                         "/img/docs/zeitungen-retourenaufruf-mde-4.png"
+                                     ],
+    "inventur/artikel-ohne-inventur-bereinigen":  [
+                                                      "/img/docs/inventur-artikel-ohne-inventur-bereinigen-1.png",
+                                                      "/img/docs/inventur-artikel-ohne-inventur-bereinigen-2.png",
+                                                      "/img/docs/inventur-artikel-ohne-inventur-bereinigen-3.png"
+                                                  ],
+    "stammdaten/neuer-artikel-fremdartikel":  [
+                                                  "/img/docs/stammdaten-neuer-artikel-fremdartikel-1.png",
+                                                  "/img/docs/stammdaten-neuer-artikel-fremdartikel-2.png",
+                                                  "/img/docs/stammdaten-neuer-artikel-fremdartikel-3.png",
+                                                  "/img/docs/stammdaten-neuer-artikel-fremdartikel-4.png"
+                                              ],
+    "stammdaten/bestehende-artikel-suchen-bezeichnung":  [
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-bezeichnung-1.png",
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-bezeichnung-2.png",
+                                                             "/img/docs/stammdaten-bestehende-artikel-suchen-bezeichnung-3.png"
+                                                         ],
+    "inventur/inventurerfassung-kasse":  [
+                                             "/img/docs/inventur-inventurerfassung-kasse-1.png"
+                                         ],
+    "auftrag-lieferanten/philip-morris-bestellung-online":  [
+                                                                "/img/docs/auftrag-lieferanten-philip-morris-bestellung-online-1.png",
+                                                                "/img/docs/auftrag-lieferanten-philip-morris-bestellung-online-2.png",
+                                                                "/img/docs/auftrag-lieferanten-philip-morris-bestellung-online-3.png"
+                                                            ],
+    "auftrag-kunden/automaten-lager-umbuchung":  [
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-1.png",
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-2.png",
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-3.png",
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-4.png",
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-5.png",
+                                                     "/img/docs/auftrag-kunden-automaten-lager-umbuchung-6.png"
+                                                 ],
+    "zeitungen/remissionsaufruf-abschliessen":  [
+                                                    "/img/docs/zeitungen-remissionsaufruf-abschliessen-1.png",
+                                                    "/img/docs/zeitungen-remissionsaufruf-abschliessen-2.png"
+                                                ],
+    "auftrag-lieferanten/tobaccoland-bestellung-online":  [
+                                                              "/img/docs/auftrag-lieferanten-tobaccoland-bestellung-online-1.png",
+                                                              "/img/docs/auftrag-lieferanten-tobaccoland-bestellung-online-2.png",
+                                                              "/img/docs/auftrag-lieferanten-tobaccoland-bestellung-online-3.png"
+                                                          ],
+    "zeitungen/rechnungskontrolle-zeitung":  [
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-1.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-2.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-3.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-4.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-5.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-6.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-7.png",
+                                                 "/img/docs/zeitungen-rechnungskontrolle-zeitung-8.png"
+                                             ],
+    "stammdaten/etiketten-drucken":  [
+                                         "/img/docs/stammdaten-etiketten-drucken-1.png",
+                                         "/img/docs/stammdaten-etiketten-drucken-2.png",
+                                         "/img/docs/stammdaten-etiketten-drucken-3.png",
+                                         "/img/docs/stammdaten-etiketten-drucken-4.png"
+                                     ],
+    "zeitungen/zeitung-reservierungsliste":  [
+                                                 "/img/docs/zeitungen-zeitung-reservierungsliste-1.png",
+                                                 "/img/docs/zeitungen-zeitung-reservierungsliste-2.png"
+                                             ],
+    "zeitungen/zeitungs-lieferscheine-uebernehmen":  [
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-1.png",
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-2.png",
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-3.png",
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-4.png",
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-5.png",
+                                                         "/img/docs/zeitungen-zeitungs-lieferscheine-uebernehmen-6.png"
+                                                     ],
+    "auftrag-lieferanten/moosmayr-bestellung-online":  [
+                                                           "/img/docs/auftrag-lieferanten-moosmayr-bestellung-online-1.png",
+                                                           "/img/docs/auftrag-lieferanten-moosmayr-bestellung-online-2.png",
+                                                           "/img/docs/auftrag-lieferanten-moosmayr-bestellung-online-3.png",
+                                                           "/img/docs/auftrag-lieferanten-moosmayr-bestellung-online-4.png"
+                                                       ],
+    "auftrag-lieferanten/offene-bestellung-uebernehmen":  [
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-1.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-2.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-3.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-4.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-5.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-6.png",
+                                                              "/img/docs/auftrag-lieferanten-offene-bestellung-uebernehmen-7.png"
+                                                          ],
+    "inventur/inventurliste-stichtag":  [
+                                            "/img/docs/inventur-inventurliste-stichtag-1.png",
+                                            "/img/docs/inventur-inventurliste-stichtag-2.png",
+                                            "/img/docs/inventur-inventurliste-stichtag-3.png"
+                                        ],
+    "inventur/inventurerfassung-mde":  [
+                                           "/img/docs/inventur-inventurerfassung-mde-1.png"
+                                       ],
+    "auftrag-lieferanten/lieferantenlieferschein-erfassen":  [
+                                                                 "/img/docs/auftrag-lieferanten-lieferantenlieferschein-erfassen-1.png",
+                                                                 "/img/docs/auftrag-lieferanten-lieferantenlieferschein-erfassen-2.png",
+                                                                 "/img/docs/auftrag-lieferanten-lieferantenlieferschein-erfassen-3.png",
+                                                                 "/img/docs/auftrag-lieferanten-lieferantenlieferschein-erfassen-4.png"
+                                                             ],
+    "inventur/inventurdaten-verbuchen":  [
+                                             "/img/docs/inventur-inventurdaten-verbuchen-1.png",
+                                             "/img/docs/inventur-inventurdaten-verbuchen-2.png",
+                                             "/img/docs/inventur-inventurdaten-verbuchen-3.png"
+                                         ],
+    "auftrag-lieferanten/lieferanten-bestellung":  [
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-bestellung-1.png",
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-bestellung-2.png",
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-bestellung-3.png",
+                                                       "/img/docs/auftrag-lieferanten-lieferanten-bestellung-4.png"
+                                                   ],
+    "zeitungen/zeitungs-nachbestellungen":  [
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-1.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-2.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-3.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-4.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-5.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-6.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-7.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-8.png",
+                                                "/img/docs/zeitungen-zeitungs-nachbestellungen-9.png"
+                                            ],
+    "zeitungen/zeitungsreservierungen":  [
+                                             "/img/docs/zeitungen-zeitungsreservierungen-1.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-2.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-3.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-4.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-5.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-6.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-7.png",
+                                             "/img/docs/zeitungen-zeitungsreservierungen-8.png"
+                                         ],
+    "auftrag-kunden/kunden-rechnungen-ausdrucken":  [
+                                                        "/img/docs/auftrag-kunden-kunden-rechnungen-ausdrucken-1.png",
+                                                        "/img/docs/auftrag-kunden-kunden-rechnungen-ausdrucken-2.png",
+                                                        "/img/docs/auftrag-kunden-kunden-rechnungen-ausdrucken-3.png"
+                                                    ]
+}

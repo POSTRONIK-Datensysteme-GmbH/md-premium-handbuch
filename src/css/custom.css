@@ -1,0 +1,16 @@
+/**
+ * MD-Premium Handbuch – eigene Anpassungen
+ * https://docusaurus.io/docs/styling-layout
+ */
+
+/* Logo in der Navbar – transparenter Hintergrund bleibt sichtbar */
+.navbar__logo img {
+  height: 28px;
+  min-height: 28px;
+  max-height: 28px;
+  width: auto;
+  background: transparent;
+  padding: 4px 8px;
+  object-fit: contain;
+  display: block;
+}
