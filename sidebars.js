@@ -86,6 +86,12 @@ const sidebars = {
             'inventur/inventurdaten-zuruecksetzen',
           ],
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Weitere Produkte',
+      items: [
         {
           type: 'category',
           label: 'Kassa (XMPS)',
@@ -95,12 +101,6 @@ const sidebars = {
             'kassa/abschluesse',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Weitere Produkte',
-      items: [
         {
           type: 'category',
           label: 'InventarPro (MDE)',

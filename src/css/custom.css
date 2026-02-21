@@ -15,14 +15,14 @@
   display: block;
 }
 
-/* Suchfeld: neben Handbuch-Titel (links) und größer */
-.navbar__inner {
-  flex-wrap: wrap;
+/* Suchfeld: direkt neben „Handbuch“ (links), rechts nur Sprachwahl */
+.navbar {
+  position: relative;
 }
 .navbar__search {
-  order: 1;
-  margin-left: 0.5rem;
-  margin-right: auto;
+  position: absolute;
+  left: 0;
+  margin-left: 12rem; /* Abstand nach Logo + „Handbuch“ */
 }
 .navbar__search-input {
   min-width: 220px;
@@ -32,11 +32,17 @@
 }
 @media (min-width: 997px) {
   .navbar__search {
-    margin-right: 0.5rem;
+    margin-left: 14rem;
   }
   .navbar__search-input {
     min-width: 260px;
     width: 320px;
+  }
+}
+@media (max-width: 996px) {
+  .navbar__search {
+    position: static;
+    margin-left: 0;
   }
 }
 
