@@ -97,12 +97,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Dokumentation',
-          },
-          {
             type: 'localeDropdown',
             position: 'right',
           },
