@@ -93,6 +93,7 @@ const config = {
         logo: {
           alt: 'POStronik',
           src: 'logo.jpg',
+          srcDark: 'img/logo-dark.png',
         },
         items: [
           {
