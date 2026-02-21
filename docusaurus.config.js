@@ -50,6 +50,11 @@ const config = {
   },
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownImages: 'ignore',
+    },
+  },
   clientModules: [require.resolve('./src/clientModule.js')],
   presets: [
     [

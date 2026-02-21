@@ -1,4 +1,4 @@
-﻿{
+{
     "zeitungen/vorremission-aus-lieferscheinen":  [
                                                       "/img/docs/zeitungen-vorremission-aus-lieferscheinen-1.png",
                                                       "/img/docs/zeitungen-vorremission-aus-lieferscheinen-2.png",
@@ -151,6 +151,20 @@
                                                  "/img/docs/zeitungen-rechnungskontrolle-zeitung-7.png",
                                                  "/img/docs/zeitungen-rechnungskontrolle-zeitung-8.png"
                                              ],
+    "stammdaten/kunden-erstellen":  [
+                                         "/img/docs/stammdaten-kunden-erstellen-1.png",
+                                         "/img/docs/stammdaten-kunden-erstellen-2.png",
+                                         "/img/docs/stammdaten-kunden-erstellen-3.png",
+                                         "/img/docs/stammdaten-kunden-erstellen-4.png",
+                                         "/img/docs/stammdaten-kunden-erstellen-5.png"
+                                     ],
+    "stammdaten/lieferanten-erstellen":  [
+                                         "/img/docs/stammdaten-lieferanten-erstellen-1.png",
+                                         "/img/docs/stammdaten-lieferanten-erstellen-2.png",
+                                         "/img/docs/stammdaten-lieferanten-erstellen-3.png",
+                                         "/img/docs/stammdaten-lieferanten-erstellen-4.png",
+                                         "/img/docs/stammdaten-lieferanten-erstellen-5.png"
+                                     ],
     "stammdaten/etiketten-drucken":  [
                                          "/img/docs/stammdaten-etiketten-drucken-1.png",
                                          "/img/docs/stammdaten-etiketten-drucken-2.png",

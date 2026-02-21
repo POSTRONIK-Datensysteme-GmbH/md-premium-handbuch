@@ -17,6 +17,8 @@ const sidebars = {
         'stammdaten/bestehende-artikel-einkaufspreis-aendern',
         'stammdaten/neuer-artikel-fremdartikel',
         'stammdaten/etiketten-drucken',
+        'stammdaten/kunden-erstellen',
+        'stammdaten/lieferanten-erstellen',
       ],
     },
     {

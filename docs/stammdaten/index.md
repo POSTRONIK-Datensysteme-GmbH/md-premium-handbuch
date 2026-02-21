@@ -17,3 +17,11 @@ In diesem Bereich finden Sie Anleitungen zu Artikeln und Stammdaten in der MD-Pr
 
 - [Neuen Artikel anlegen (Fremdartikel)](/docs/stammdaten/neuer-artikel-fremdartikel)
 - [Etiketten drucken](/docs/stammdaten/etiketten-drucken)
+
+## Kunden
+
+- [Kunden erstellen](/docs/stammdaten/kunden-erstellen)
+
+## Lieferanten
+
+- [Lieferanten erstellen](/docs/stammdaten/lieferanten-erstellen)
