@@ -17,90 +17,90 @@
 
 ## Wechselgelddeklaration
 
-Dient zum Deklarieren des **Ladenanfangsbestandes** bei Kassierbeginn (= Wechselgeld). Eine Wechselgelddeklaration ist jeweils **nach dem Anmelden** eines Kassiers vorzunehmen.
+Die **Wechselgelddeklaration** dient dazu, den **Ladenanfangsbestand** (das Wechselgeld) zu deklarieren, mit dem der Kassier seine Schicht beginnt. So ist nachvollziehbar, wie viel Geld zu Beginn in der Lade war. Die Wechselgelddeklaration ist **jeweils nach dem Anmelden** eines Kassiers durchzuführen.
 
-**Schritte:**
+**So deklarieren Sie das Wechselgeld:**
 
-1. Auf der Seite **„FUNKTION“** wechseln  
-2. Betrag eingeben  
-3. Taste **Wechselgeld**  
-4. Taste **Bar**  
-5. Taste **ESC**  
+1. Auf der Seite **„FUNKTION“** wechseln.
+2. **Betrag** eingeben – den tatsächlich in der Lade befindlichen Betrag (Wechselgeld).
+3. Taste **„Wechselgeld“** betätigen.
+4. Taste **„Bar“** betätigen.
+5. Taste **„ESC“** betätigen – die Deklaration ist abgeschlossen.  
 
 ---
 
 ## Geldabschöpfung
 
-Dient zum Deklarieren von **Geldentnahmen** (= Bankgeld). Die Deklaration ist jeweils **nach der Entnahme** durchzuführen. Die Summen werden bis zum Tagesabschluss aufsummiert.
+Unter **Geldabschöpfung** versteht man das **Deklarieren von Geldentnahmen** aus der Kasse (z. B. Überschuss wird zur Bank gebracht). Die Entnahme wird so in der Kasse verbucht; die Kasse „erwartet“ danach weniger Geld in der Lade. Jede Entnahme sollte **unmittelbar nach der Entnahme** deklariert werden. Die deklarierten Beträge werden bis zum Tagesabschluss aufsummiert.
 
-**Schritte:**
+**So deklarieren Sie eine Geldabschöpfung:**
 
-1. Auf der Seite **„FUNKTION“** wechseln  
-2. Betrag eingeben  
-3. Taste **Geldabschöpfung**  
-4. Taste **Bar**  
-5. Taste **ESC**  
+1. Auf der Seite **„FUNKTION“** wechseln.
+2. **Betrag** eingeben – den entnommenen Betrag in Euro.
+3. Taste **„Geldabschöpfung“** betätigen.
+4. Taste **„Bar“** betätigen.
+5. Taste **„ESC“** betätigen – die Deklaration ist gebucht.  
 
 ---
 
 ## Geldzählung
 
-Dient zum Deklarieren des **derzeitigen Ladeninhaltes**. Die Geldzählung kann beliebig oft durchgeführt werden; die jeweiligen Summen werden bei jeder Deklaration überschrieben. Sinnvoll z. B. nach Kassierende oder für einen Kassensturz (Vergleich: Soll-Bestand vs. deklarierter Bestand).
+Die **Geldzählung** dient dazu, den **derzeitigen Inhalt der Geldlade** zu deklarieren – also den Betrag, den Sie tatsächlich gezählt haben. Die Geldzählung kann **beliebig oft** durchgeführt werden; bei jeder neuen Deklaration wird der zuletzt deklarierte Wert überschrieben. So kann die Kasse einen **Vergleich** anstellen: Wie viel **sollte** in der Lade sein (rechnerisch) – und wie viel wurde **tatsächlich** gezählt und deklariert? Zweckmäßig ist die Geldzählung **nach Kassierende** oder für einen **Kassensturz**.
 
-**Schritte:**
+**So deklarieren Sie eine Geldzählung:**
 
-1. Auf der Seite **„FUNKTION“** wechseln  
-2. Betrag eingeben  
-3. Taste **Geldzählung**  
-4. Taste **Bar**  
-5. Taste **ESC**  
+1. Auf der Seite **„FUNKTION“** wechseln.
+2. **Betrag** eingeben – den gezählten Betrag, der aktuell in der Lade ist.
+3. Taste **„Geldzählung“** betätigen.
+4. Taste **„Bar“** betätigen.
+5. Taste **„ESC“** betätigen – die Deklaration ist gespeichert.  
 
 ---
 
 ## Nullbeleg
 
-Beleg ohne Verkauf (z. B. auf Verlangen des Finanzbeamten).
+Ein **Nullbeleg** ist ein Beleg **ohne Verkauf** – die Kasse druckt einen Beleg, auf dem keine Verkäufe verbucht sind. Er kann z. B. vom **Finanzbeamten** verlangt werden (z. B. bei einer Prüfung) oder dient der Dokumentation, dass die Kasse zu einem bestimmten Zeitpunkt keine Verkaufstätigkeit hatte.
 
-**Schritte:**
+**So drucken Sie einen Nullbeleg:**
 
-1. Seite **„FUNKT“** auswählen  
-2. Taste **„X/Z“** drücken  
-3. Auf **„JA“** drücken (für den Modus X1)  
-4. **9811** eingeben und **[JA]** bestätigen  
+1. Seite **„FUNKT“** auswählen.
+2. Taste **„X/Z“** drücken.
+3. Auf **„JA“** drücken (Bestätigung für den **Modus X1**).
+4. **9811** eingeben und mit **[JA]** bestätigen – der Nullbeleg wird gedruckt.  
 
 ---
 
 ## Jahresbeleg
 
-Jahresbeleg muss bei **FinanzOnline** gemeldet werden.
+Der **Jahresbeleg** ist ein Abschlussbeleg für das **gesamte Jahr** (alle Umsätze der Kasse). Er wird z. B. für die Steuererklärung oder die Meldung bei **FinanzOnline** benötigt. Der Jahresbeleg muss bei FinanzOnline gemeldet werden.
 
-**Schritte:**
+**So drucken Sie den Jahresbeleg:**
 
-1. Seite **„FUNKT“** auswählen  
-2. Taste **„X/Z“** drücken  
-3. Auf **„JA“** drücken (für den Modus X1)  
-4. **9833** eingeben und **[JA]** bestätigen  
+1. Seite **„FUNKT“** auswählen.
+2. Taste **„X/Z“** drücken.
+3. Auf **„JA“** drücken (Bestätigung für den **Modus X1**).
+4. **9833** eingeben und mit **[JA]** bestätigen – der Jahresbeleg wird gedruckt.  
 
 ---
 
 ## Bankomat-Tagesabschluss
 
-Bei Verwendung von Bankomat-Funktionen ist ein **täglicher Tagesabschluss** für das B-K-Terminal erforderlich. Je nach Konfiguration ist dafür die Verwendung einer **TES-Karte** vorgesehen (siehe Bedienungsanleitung zum B-K-Terminal). Erst durch den erfolgreichen Tagesabschluss wird der Zahlungstransfer zum Konto des Kaufmanns freigegeben.
+Bei Verwendung von **Bankomat-/Kartenzahlungs-Funktionen** (B-K-Terminal) ist ein **täglicher Tagesabschluss** für das Terminal **unbedingt erforderlich**. Erst durch den erfolgreich durchgeführten Tagesabschluss wird der **Zahlungstransfer zum Konto des Kaufmanns** freigegeben – ohne Tagesabschluss bleiben die Kartenzahlungen „hängig“. Je nach Konfiguration des B-K-Terminals ist dafür die Verwendung einer **TES-Karte** vorgesehen (Details siehe Bedienungsanleitung zum B-K-Terminal).
 
-Der B-K-Tagesabschluss kann unabhängig vom Kassen-Tagesabschluss durchgeführt werden. Er muss an **jeder** Kasse durchgeführt werden. An der XMPS wird ein Tagesende-Bericht gedruckt (Vergleich: Gesamtsumme B-K-Terminal vs. Kasse).
+Der B-K-Tagesabschluss kann **unabhängig** vom Kassen-Tagesabschluss durchgeführt werden und muss nicht zum gleichen Zeitpunkt erfolgen. Er muss aber an **jeder** Kasse, die ein B-K-Terminal nutzt, durchgeführt werden. An der XMPS wird ein **Tagesende-Bericht** gedruckt – darauf werden die Gesamtsumme des B-K-Terminals und die Kasse gegenübergestellt (Vergleich zur Kontrolle).
+
+**So führen Sie den Bankomat-Tagesabschluss durch:**
+
+1. Ebene **„Funktion“** aufrufen.
+2. Taste **„X/Z“** betätigen.
+3. Modus **„Z“** auswählen und mit **„JA“** bestätigen.
+4. **9898** eingeben und mit **„Zwischensumme“** bestätigen – der Tagesabschluss läuft, der Bericht wird gedruckt.
 
 ![Bankomat-Tagesabschluss 1](/img/docs/kassa/bankomat-tagesabschluss-1.png)
 
 ![Bankomat-Tagesabschluss 2](/img/docs/kassa/bankomat-tagesabschluss-2.png)
 
-![Bankomat-Tagesabschluss 3](/img/docs/kassa/bankomat-tagesabschluss-3.png)
-
-**Schritte:**
-
-1. Ebene **„Funktion“** aufrufen  
-2. Taste **„X/Z“** betätigen  
-3. Modus **„Z“** auswählen und mit **„JA“** bestätigen  
-4. **9898** eingeben und mit **„Zwischensumme“** bestätigen  
+![Bankomat-Tagesabschluss 3](/img/docs/kassa/bankomat-tagesabschluss-3.png)  
 
 ---
 

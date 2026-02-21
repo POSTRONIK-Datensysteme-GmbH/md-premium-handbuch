@@ -26,7 +26,12 @@
 
 ## Anmelden / Abmelden
 
-Kasse für einen Kassier freigeben bzw. wieder abmelden.
+Bevor ein Kassier an der Kasse arbeiten kann, muss er sich **anmelden**. Die Kasse ist dann seinem Benutzerkonto zugeordnet, alle Vorgänge werden diesem Kassier zugerechnet. Am Ende der Schicht meldet sich der Kassier wieder **ab**.
+
+**So melden Sie sich an bzw. ab:**
+
+1. Auf der Kasse die Anmeldung aufrufen (je nach Konfiguration: Kassiernummer oder Benutzer auswählen).
+2. Zum **Abmelden** die Abmelde-Funktion wählen – die Kasse ist danach wieder im Anmelde-Zustand.
 
 ![Anmelden Abmelden](/img/docs/kassa/anmelden-abmelden.png)
 
@@ -34,105 +39,115 @@ Kasse für einen Kassier freigeben bzw. wieder abmelden.
 
 ## Multiplikation bei Verkaufsvorgängen
 
-Werden mehrere gleiche Artikel verkauft, kann vor der Bonierung multipliziert werden: zuerst die **Anzahl** eingeben, dann die Taste **X/Datum** drücken. Anschließend Artikel scannen, PLU-Nummer eingeben oder Warengruppenbonierung nutzen.
+Werden **mehrere gleiche Artikel** verkauft (z. B. 5× dasselbe Getränk), können Sie **vor** der Bonierung die **Menge** eingeben und dann nur einmal den Artikel erfassen – die Kasse bucht die eingegebene Anzahl. Dafür zuerst die Anzahl eingeben, dann die Taste **X/Datum** drücken. Anschließend kann der Artikel **gescannt**, per **PLU-Nummer** eingegeben oder über eine **Warengruppenbonierung** registriert werden. Wurde ein Artikel einmal gescannt oder per PLU aufgerufen, wird er bei jedem weiteren Drücken der Taste **PLU** wiederholt (ohne erneute Mengeneingabe).
 
-**Schritte:**
+**So buchen Sie mehrere gleiche Artikel (Multiplikation):**
 
-1. Menge eingeben  
-2. Taste **„X“** betätigen  
-3. Artikel scannen oder PLU/EAN eingeben  
-
-Wurde ein Artikel gescannt oder per PLU aufgerufen, wird er nach jedem erneuten Drücken der Taste **PLU** wiederholt.
+1. **Menge** eingeben (z. B. 5).
+2. Taste **„X“** (bzw. **X/Datum**) betätigen.
+3. **Artikel scannen** oder **PLU/EAN** eingeben – der Artikel wird mit der eingegebenen Menge in die Aufrechnung übernommen.
 
 ---
 
 ## Manuelle Verbuchung (PLU)
 
-- PLU- oder EAN-Nr. über Ziffernblock eingeben  
-- Taste **PLU / EAN** betätigen  
+Artikel, die nicht gescannt werden können (z. B. ohne Barcode), können über die **PLU-** oder **EAN-Nummer** eingegeben werden. Die Nummer wird über den Ziffernblock eingegeben, danach bestätigt die PLU/EAN-Taste die Verbuchung.
+
+**So buchen Sie einen Artikel manuell:**
+
+1. **PLU-** oder **EAN-Nummer** über den Ziffernblock eingeben.
+2. Taste **„PLU“** bzw. **„EAN“** betätigen – der Artikel wird in die Aufrechnung übernommen.  
 
 ---
 
 ## Storno
 
-Mit der Taste **Storno** können Artikel storniert werden, die in der Aufrechnung weiter zurück liegen. Zuerst die Taste **Storno** drücken, anschließend den zu stornierenden Artikel **nochmals bonieren**.
+Mit der Taste **Storno** können Sie einen **bereits bonierten Artikel** wieder aus der Aufrechnung entfernen. Dafür muss der zu stornierende Artikel der **zuletzt** bonierte sein: Sie drücken **Storno** und bonieren den Artikel **nochmals** (als Storno) – er wird abgezogen. So können Sie z. B. einen versehentlich doppelt gescannten Artikel oder einen falschen Artikel rückgängig machen.
 
 :::caution
-Die Funktion gilt nur für den **jeweils nächsten** (zuletzt bonierten) Artikel.
+Die Storno-Funktion gilt **nur für den jeweils zuletzt bonierten** Artikel. Liegt der zu stornierende Artikel weiter zurück in der Aufrechnung, müssen Sie ggf. die ganze Aufrechnung abbrechen (Bon-Abbruch) und neu beginnen.
 :::
 
-**Schritte:**
+**So stornieren Sie einen Artikel:**
 
-1. Artikel auswählen (der zu stornierende muss zuletzt boniert sein)  
-2. Taste **„Storno“** betätigen  
+1. Sicherstellen, dass der **zu stornierende Artikel** der **letzte** in der Aufrechnung ist (ggf. zuerst andere Artikel stornieren oder Aufrechnung abbrechen).
+2. Taste **„Storno“** betätigen.
+3. Den **zu stornierenden Artikel** erneut **scannen** bzw. per PLU eingeben – der Artikel wird storniert (abgezogen).  
 
 ---
 
 ## Bon-Abbruch
 
-Über die Taste **Abbruch** kann eine Aufrechnung jederzeit abgebrochen werden. Alle in der Aufrechnung bonierten Artikel gelten als storniert, die Summenspeicher werden bereinigt. Sinnvoll z. B. wenn in einer Aufrechnung mehrere Fehler auftreten – dann den Vorgang abbrechen und von neuem beginnen.
+Über die Taste **Abbruch** kann eine Aufrechnung **jederzeit** abgebrochen werden. Die Funktion wirkt so, als würden **alle** in der Aufrechnung bonierten Artikel storniert – sämtliche Summenspeicher werden bereinigt. Die Taste **Abbruch** beendet auch laufende Aktionen in REG oder RETOUR (z. B. Geldzählung, Geldabschöpfung, Wechselgeld-Deklaration).
 
-**Schritt:** Taste **„Abbruch“** betätigen  
+:::tip
+Wenn in einer Aufrechnung **mehrere Fehler** passiert sind, ist es oft am einfachsten, den gesamten Kassiervorgang abzubrechen und von vorne zu beginnen.
+:::
+
+**So brechen Sie eine Aufrechnung ab:**
+
+1. Taste **„Abbruch“** betätigen – die Aufrechnung ist gelöscht, Sie können neu anfangen.  
 
 ---
 
 ## Aus- oder Einzahlung
 
-Buchen einer Auszahlung (z. B. Annahme einer Nachnahmesendung) oder Einzahlung.
+**Auszahlung:** z. B. wenn Sie eine Nachnahmesendung annehmen – der Betrag wird aus der Kasse entnommen und als Auszahlung gebucht. **Einzahlung:** wenn Geld in die Kasse eingelegt wird (z. B. Wechselgeld nachfüllen), wird der Betrag als Einzahlung gebucht. Bei der Einzahlung ist der Ablauf gleich wie bei der Auszahlung, nur die Taste „Einzahlung“ wird verwendet.
 
-**Schritte:**
+**So buchen Sie eine Aus- oder Einzahlung:**
 
-1. Auf der Seite **„FUNKTION“** wechseln  
-2. Betrag eingeben  
-3. Taste **„Einzahlung“** oder **„Auszahlung“** betätigen  
+1. Auf die Seite **„FUNKTION“** wechseln.
+2. **Betrag** eingeben (den tatsächlich ausgezahlten bzw. eingezahlten Betrag).
+3. Taste **„Auszahlung“** oder **„Einzahlung“** betätigen – der Vorgang ist gebucht.  
 
 ---
 
 ## Lade öffnen / Kein Verkauf
 
-Zum Geldwechseln oder aus anderen Gründen die Geldlade **ohne** eine Registrierung öffnen.
+Wenn Sie die **Geldlade öffnen** möchten, **ohne** einen Verkauf zu buchen (z. B. um Wechselgeld zu entnehmen oder einzulegen), nutzen Sie diese Funktion. Es wird keine Registrierung vorgenommen – nur die Schublade öffnet sich.
 
-**Schritt:** Taste **„Lade auf / Kein Verkauf“** betätigen – die Schublade öffnet sich.
+**So öffnen Sie die Lade ohne Verkauf:**
+
+1. Taste **„Lade auf / Kein Verkauf“** betätigen – die Schublade bzw. Geldlade öffnet sich.
 
 ---
 
 ## Kassenverbund wiederherstellen
 
-Nach einer Verbundstörung (z. B. Netzwerkausfall) die Kassen wieder verbinden.
+Die Kassen in einem **Kassenverbund** stehen während des Betriebs in Netzwerk-Kommunikation. Wenn während eines Vorgangs eine oder mehrere Kassen nicht erreichbar sind (z. B. Netzwerkausfall), erscheint eine Fehlermeldung und die Verbindung wird unterbrochen – die Kassen können aber einzeln weiterarbeiten. **Nach der Behebung** der Störung müssen die Kassen wieder miteinander verbunden werden. Dafür dient der Vorgang **„Kassenverbund wiederherstellen“**.
 
-**Schritte:**
+**So stellen Sie den Kassenverbund wieder her:**
 
-1. Kasse in den Modus **„X“** bringen  
-2. **4301** eingeben  
-3. **„Zwischensumme“** drücken  
-4. Die Kasse druckt einen Bericht über alle im Netzwerk vorhandenen Kassen  
-5. Kasse in den Modus **„REG 1“** bringen  
+1. Kasse in den Modus **„X“** bringen.
+2. **4301** eingeben.
+3. **„Zwischensumme“** drücken – die Kasse druckt einen Bericht über alle im Netzwerk vorhandenen Kassen.
+4. Kasse wieder in den Modus **„REG 1“** bringen – der Verbund ist wiederhergestellt.  
 
 ---
 
 ## Artikel-Retouren
 
-Bereits verkaufte Artikel werden wieder zurückgenommen – Lagerbestand und Summenspeicher müssen korrigiert werden. Auch um Fehler zu korrigieren, die erst nach Bonabschluss auffallen (z. B. falscher Preis, versehentlich boniert).
+Wenn ein **Bon bereits abgeschlossen** ist, sind die Artikel vom Lagerbestand abgebucht. Wird ein solcher Artikel vom Kunden **zurückgegeben**, müssen Lagerbestand und Summenspeicher korrigiert werden – dazu dient die **Retour**-Funktion. Außerdem ist Retour die **einzige Möglichkeit**, Fehler zu korrigieren, die erst **nach** Bonabschluss auffallen (z. B. falscher Preis, Artikel versehentlich doppelt boniert).
 
-![Artikel-Retouren](/img/docs/kassa/artikel-retouren.png)
+**So buchen Sie eine Retour:**
 
-**Schritte:**
+1. Taste **„Retour“** betätigen – die Kasse ist im Retour-Modus.
+2. **Artikel scannen** oder **EAN** über Ziffernblock eingeben.
+3. Mit Taste **„Bar“** abschließen – die Retour ist verbucht, Lager und Summen sind angepasst.
 
-1. Taste **„Retour“** betätigen  
-2. Artikel scannen oder EAN eingeben  
-3. Mit Taste **„Bar“** abschließen  
+![Artikel-Retouren](/img/docs/kassa/artikel-retouren.png)  
 
 ---
 
 ## Nachlass Betrag
 
-Betragsmäßiger Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechnung.
+Unter **Nachlass** versteht man einen **betragsmäßigen Abzug** vom Verkaufspreis – entweder von einem einzelnen Artikel oder von der **gesamten Aufrechnung**. Sie geben den **Betrag** ein, um den reduziert wird (nicht den Prozentsatz). Nach einem Artikel wird der Nachlass nur auf diesen Artikel angewendet; nach **Zwischensumme** auf die ganze Aufrechnung.
 
-**Schritte:**
+**So gewähren Sie einen Nachlass (Betrag):**
 
-1. Artikel scannen oder PLU/EAN eingeben (oder nach **Zwischensumme** für die ganze Aufrechnung)  
-2. Nachlass-**Betrag** eingeben  
-3. Taste **„Nachlass Betrag“** betätigen  
+1. **Artikel scannen** oder **PLU/EAN** eingeben (oder zuerst **Zwischensumme** drücken, wenn der Nachlass für die ganze Aufrechnung gilt).
+2. **Nachlass-Betrag** in Euro eingeben (z. B. 2,00).
+3. Taste **„Nachlass Betrag“** betätigen – der Abzug ist gebucht.
 
 ![Nachlass Betrag](/img/docs/kassa/nachlass-betrag.png)
 
@@ -140,13 +155,13 @@ Betragsmäßiger Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechn
 
 ## Rabatt
 
-Prozentualer Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechnung. Die Taste **Rabatt** kann mit einem festen Prozentsatz programmiert sein; wird ein Prozentsatz eingegeben, überschreibt er den voreingestellten Satz.
+**Rabatt** ist ein **prozentualer Abzug** vom Verkaufspreis – entweder von einem Artikel oder von der ganzen Aufrechnung. Sie geben den **Prozentsatz** ein (z. B. 10 für 10 %). Die Taste **Rabatt** kann mit einem **festen Prozentsatz** programmiert sein; wenn Sie trotzdem einen Prozentsatz eingeben, überschreibt dieser den voreingestellten Satz.
 
-**Schritte:**
+**So gewähren Sie einen Rabatt (%):**
 
-1. Artikel scannen oder PLU/EAN eingeben (oder nach **Zwischensumme** für die ganze Aufrechnung)  
-2. Rabatt in **%** eingeben  
-3. Taste **„Rabatt“** betätigen  
+1. **Artikel scannen** oder **PLU/EAN** eingeben (oder **Zwischensumme** drücken, wenn der Rabatt für die ganze Aufrechnung gilt).
+2. **Rabatt in %** eingeben (z. B. 5 oder 10).
+3. Taste **„Rabatt“** betätigen – der prozentuale Abzug ist gebucht.
 
 ![Rabatt](/img/docs/kassa/rabatt.png)
 
@@ -154,11 +169,12 @@ Prozentualer Abzug vom Verkaufspreis eines Artikels oder der ganzen Aufrechnung.
 
 ## Kunde parken
 
-Ein Kunde kann „geparkt“ werden, wenn er während des Registriervorgangs noch einen Artikel holen geht – inzwischen kann ein neuer Kunde bedient werden.
+Möchte ein Kunde während des Verkaufs **noch einen Artikel holen** (z. B. aus dem Verkaufsraum), können Sie ihn **„parken“**: Die aktuelle Aufrechnung wird unterbrochen und gespeichert. Sie können inzwischen **einen anderen Kunden** bedienen. Anschließend rufen Sie die geparkte Aufrechnung wieder auf und führen sie fort.
 
-**Zum Parken:** Taste **„Kunde parken“** betätigen  
+**So parken Sie einen Kunden:**
 
-**Zum Fortsetzen:** Taste **„Kunde fortsetzen“** betätigen  
+1. Taste **„Kunde parken“** betätigen – die Aufrechnung wird geparkt, Sie können einen neuen Vorgang starten.
+2. Zum **Fortsetzen** der geparkten Aufrechnung: Taste **„Kunde fortsetzen“** betätigen – die vorherige Aufrechnung erscheint wieder.
 
 ![Kunde parken](/img/docs/kassa/kunde-parken.png)
 
@@ -166,15 +182,15 @@ Ein Kunde kann „geparkt“ werden, wenn er während des Registriervorgangs noc
 
 ## Krediteinkäufe mit Kundennummer
 
-Verkauf auf Kundenkonto (Kredit). Der Saldo wird nach Abschluss auf dem Kundenkonto gespeichert.
+Mit der XMPS können **Kundensalden** (Kredit) geführt werden. Beim **Krediteinkauf** wird der Einkauf nicht bar bezahlt, sondern dem **Kundenkonto** belastet. Nach Abschluss des Einkaufs speichert die Kasse den neuen Saldo des Kunden (vorheriger Saldo minus Einkauf bzw. plus Einkauf je nach Buchungslogik).
 
-**Schritte:**
+**So buchen Sie einen Krediteinkauf:**
 
-1. Kundennummer eingeben  
-2. Taste **„Kunden“** betätigen  
-3. Artikel scannen  
-4. Taste **„Zwischensumme“** betätigen  
-5. Taste **„Kredit“** betätigen  
+1. **Kundennummer** eingeben.
+2. Taste **„Kunden“** betätigen – der Kunde ist ausgewählt.
+3. **Artikel scannen** wie bei einem normalen Verkauf.
+4. Taste **„Zwischensumme“** betätigen.
+5. Taste **„Kredit“** betätigen – der Betrag wird dem Kundenkonto belastet, der Bon ist abgeschlossen.
 
 ![Krediteinkäufe](/img/docs/kassa/krediteinkaeufe.png)
 
@@ -182,15 +198,15 @@ Verkauf auf Kundenkonto (Kredit). Der Saldo wird nach Abschluss auf dem Kundenko
 
 ## Kundeneinzahlungen mit AKONTO
 
-Einzahlung zur Verminderung des offenen Kundensaldos (z. B. Teilzahlung).
+**Akonto** dient dazu, **Zahlungen** des Kunden zu verbuchen, die den **offenen Kundensaldo** vermindern (z. B. der Kunde zahlt eine Rechnung oder eine Teilzahlung). Der Kunde gibt Geld – Sie buchen es als Einzahlung auf sein Kundenkonto; der Saldo wird reduziert.
 
-**Schritte:**
+**So buchen Sie eine Kundeneinzahlung (Akonto):**
 
-1. Kundennummer eingeben  
-2. Taste **„Akonto“** betätigen  
-3. Betrag eingeben  
-4. Taste **„BAR“** betätigen  
-5. Taste **„ESC“** betätigen  
+1. **Kundennummer** eingeben.
+2. Taste **„Akonto“** betätigen.
+3. **Betrag** eingeben, den der Kunde einzahlt.
+4. Taste **„BAR“** betätigen – die Einzahlung ist verbucht.
+5. Taste **„ESC“** betätigen – Sie verlassen den Akonto-Vorgang.
 
 ![Kundeneinzahlungen AKONTO](/img/docs/kassa/kundeneinzahlungen-akonto.png)
 
@@ -198,17 +214,17 @@ Einzahlung zur Verminderung des offenen Kundensaldos (z. B. Teilzahlung).
 
 ## Kundenkonto +, Kundenkonto –
 
-Saldo des Kunden ändern, **ohne** den Bargeld-Ladenbestand zu ändern (z. B. Kunde zahlt per Banküberweisung).
+Diese Funktionen ändern den **Kundensaldo**, **ohne** dass Bargeld in der Kasse bewegt wird. Typischer Fall: Der Kunde zahlt **per Banküberweisung** – Sie buchen die Zahlung mit **Kundenkonto –**, der Saldo sinkt, die Kassenlade bleibt unberührt.
 
-- **Kundenkonto –** reduziert die ausstehende Forderung beim Kunden.  
-- **Kundenkonto +** erhöht die ausstehende Forderung beim Kunden.  
+- **Kundenkonto –** reduziert die **ausstehende Forderung** beim Kunden (Kunde hat gezahlt).
+- **Kundenkonto +** erhöht die ausstehende Forderung (z. B. Nachbelastung, Storno einer Gutschrift).
 
-**Schritte:**
+**So buchen Sie eine Saldoänderung ohne Bargeld:**
 
-1. Kundennummer eingeben  
-2. Taste **„Kundenkonto –“** (oder **„Kundenkonto +“**) betätigen  
-3. Betrag eingeben  
-4. Taste **„Kundenkonto –“** (bzw. **„Kundenkonto +“**) erneut betätigen  
+1. **Kundennummer** eingeben.
+2. Taste **„Kundenkonto –“** (oder **„Kundenkonto +“**) betätigen.
+3. **Betrag** eingeben.
+4. Taste **„Kundenkonto –“** (bzw. **„Kundenkonto +“**) **nochmals** betätigen – die Buchung ist ausgeführt.
 
 ![Kundenkonto plus minus](/img/docs/kassa/kundenkonto-plus-minus.png)
 
