@@ -56,6 +56,18 @@ const config = {
     },
   },
   clientModules: [require.resolve('./src/clientModule.js')],
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        language: ['de', 'en', 'es', 'tr'],
+        maxSearchResults: 10,
+      },
+    ],
+  ],
   presets: [
     [
       'classic',

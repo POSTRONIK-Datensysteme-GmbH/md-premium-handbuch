@@ -10,6 +10,7 @@ Dieses Handbuch unterstützt Sie bei der Arbeit mit der **MD-Premium Warenwirtsc
 - **[Zeitungen](/docs/zeitungen/)** – Z-Lieferscheine, Lieferdifferenzen, Remissionen, Reservierungen, Rechnungskontrolle
 - **[Auftrag Kunden](/docs/auftrag-kunden/)** – Kundenaufträge, Rechnungen, Warenschwund, Automaten-Umbuchung
 - **[Kassa (XMPS)](/docs/kassa/)** – XMPS Kassensoftware: Bedienung (Verkauf, Storno, Retouren …) und Abschlüsse (Wechselgeld, Nullbeleg, Tagesabschluss)
+- **[Erweiterungen](/docs/erweiterungen/)** – Zusatzmodule (z. B. Automatenverwaltung: Kurzzeitstatistik, Automaten Interface, Verbuchung an der Kasse)
 - **[InventarPro (MDE)](/docs/inventarpro/)** – Mobile Datenerfassung: Schnellstart, Lieferscheine, Inventur und Export mit der InventarPro-App am MDE-Gerät
 
 ## Hinweis

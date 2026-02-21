@@ -92,6 +92,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Erweiterungen',
+      link: { type: 'doc', id: 'erweiterungen/index' },
+      items: [
+        'erweiterungen/automatenverwaltung',
+      ],
+    },
+    {
+      type: 'category',
       label: 'InventarPro (MDE)',
       link: { type: 'doc', id: 'inventarpro/index' },
       items: [
