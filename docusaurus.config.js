@@ -3,8 +3,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MD-Premium Handbuch',
-  tagline: 'Warenwirtschaft – Anleitungen und Dokumentation',
+  title: 'POStronik Handbuch',
+  tagline: 'Dokumentation für MD-Premium Warenwirtschaft und zugehörige Produkte (Kassa, MDE, Erweiterungen)',
   favicon: 'img/favicon.ico', // Eigenes Favicon nach Belieben in static/img/ legen
   url: 'https://postronik-datensysteme-gmbh.github.io',
   baseUrl: '/md-premium-handbuch/',
@@ -89,7 +89,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'MD-Premium Handbuch',
+        title: 'POStronik Handbuch',
         logo: {
           alt: 'POStronik',
           src: 'logo.jpg',
@@ -116,6 +116,10 @@ const config = {
               {
                 label: 'Einstieg',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Produkte im Überblick',
+                to: '/docs/produkte-ueberblick',
               },
               {
                 label: 'Stammdaten',
@@ -149,7 +153,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} POStronik Datensysteme – MD-Premium Warenwirtschaft`,
+        copyright: `© ${new Date().getFullYear()} POStronik Datensysteme – Dokumentation Warenwirtschaft & Produkte`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,
