@@ -10,6 +10,7 @@ Ovaj priručnik pomaže u radu sa **MD-Premium trgovinom** od POStronika.
 - **[Novine](/docs/zeitungen/)** – Z-otpremnice, razlike u isporuci, povrati, rezervacije, kontrola faktura
 - **[Narudžbe kupaca](/docs/auftrag-kunden/)** – Narudžbe kupaca, fakture, manjak robe, prebacivanje u automate
 - **[Kasa (XMPS)](/docs/kassa/)** – XMPS softver za kasu: rad (prodaja, storno, povrati …) i zatvaranja (početno stanje, null račun, dnevno zatvaranje)
+- **[InventarPro (MDE)](/docs/inventarpro/)** – Mobilni unos podataka: brzi početak, otpremnice, inventar i izvoz pomoću InventarPro aplikacije na MDE uređaju
 
 ## Napomena
 

@@ -10,6 +10,7 @@ Este manual le ayuda a trabajar con la **Gestión comercial MD-Premium** de POSt
 - **[Periódicos](/docs/zeitungen/)** – Albaranes Z, diferencias de entrega, devoluciones, reservas, control de facturas
 - **[Pedidos de clientes](/docs/auftrag-kunden/)** – Pedidos de clientes, facturas, mermas, transferencias a máquinas expendedoras
 - **[Caja (XMPS)](/docs/kassa/)** – Software de caja XMPS: uso (ventas, anulaciones, devoluciones …) y cierres (fondo de caja, ticket nulo, cierre diario)
+- **[InventarPro (MDE)](/docs/inventarpro/)** – Captura móvil: inicio rápido, albaranes, inventario y exportación con la app InventarPro en el dispositivo MDE
 
 ## Nota
 

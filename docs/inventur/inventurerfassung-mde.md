@@ -1,25 +1,31 @@
 # Inventurerfassung mit MDE-Gerät
 
-So erfassen Sie die Inventur mit einem MDE-Gerät und übertragen die Daten an MD-Premium.
+So erfassen Sie die Inventur mit einem **MDE-Gerät** (Mobile Datenerfassung) und übertragen die Daten an MD-Premium. Die Beschreibung orientiert sich an der **InventarPro-App** auf dem MDE-Gerät (Android, Touchbedienung).
 
 **Video:** [Inventurerfassung mit MDE](https://youtube.com/shorts/Hqnba0bwY7E)
 
+## Voraussetzung
+
+- Das MDE-Gerät ist mit dem **Firmen-WLAN** verbunden.
+- Die **Datenbank** wurde zuvor über **Importieren** im Hauptmenü aktualisiert (täglich vor der ersten Nutzung empfohlen).
+
 ## Inventurkopf anlegen und Artikel zählen
 
-1. Wählen Sie im Hauptmenü den Menüpunkt **INVENTUR**. Es wird die Liste der offenen Inventurköpfe angezeigt.
-2. **Neuer Inventurkopf:** Drücken Sie die blaue Taste **NEU**, erfassen Sie im Dialog die **Regalnummer (= Zone)**, die Sie inventieren wollen, und bestätigen Sie mit der gelben Taste **OK** (oder **ENTER**). Öffnen Sie den neuen Inventurkopf mit **ENTER**.  
-   **Oder:** Navigieren Sie mit den Pfeiltasten **AUF** oder **AB** zu einem bestehenden Inventurkopf und drücken Sie **ENTER**.
-3. Scannen Sie die Inventurartikel. Mit jedem Scan wird die Inventurmenge des Artikels um 1 erhöht. Alternativ: Nach dem Scan **ENTER** drücken und die Zählmenge erfassen, Dialog mit **ENTER** bestätigen.
-4. **Zone beenden:** Drücken Sie die gelbe Taste **Speichern**. Sie gelangen zurück in die Liste der offenen Inventurköpfe.
-5. **Inventurkopf abschließen:** Navigieren Sie zu dem Inventurkopf und schließen Sie ihn mit der roten Taste **Abschluss** ab. Bestätigen Sie mit der gelben Taste **OK**. **Nur abgeschlossene** Inventurköpfe werden an MD-Premium übertragen.
+1. Öffnen Sie im **Hauptmenü** der MDE-App die Kachel **Inventur**. Es wird die Liste der offenen Inventurköpfe angezeigt.
+2. **Neuer Inventurkopf:** Tippen Sie auf **Neu**, geben Sie optional **Lagerort** bzw. **Lager** (bzw. Regalnummer/Zone) ein und bestätigen Sie. Öffnen Sie den neuen Inventurkopf durch Antippen.  
+   **Oder:** Wählen Sie einen bestehenden Inventurkopf aus der Liste aus und tippen Sie darauf, um ihn zu öffnen.
+3. **Artikel scannen:** Scannen Sie die Barcodes der Inventurartikel. Mit jedem Scan wird die Inventurmenge des Artikels um 1 erhöht. Bei Bedarf können Sie nach dem Scan die **Menge** im Mengenfeld anpassen.
+4. **Beleg speichern:** Tippen Sie auf **Speichern** (bzw. nutzen Sie die Zurück-Funktion der App). Sie gelangen zurück in die Liste der offenen Inventurköpfe.
+5. **Inventurkopf abschließen:** Wählen Sie den Inventurkopf in der Liste aus und tippen Sie auf **Abschließen**. **Nur abgeschlossene** Inventurköpfe werden an MD-Premium übertragen.
+6. **Export auf der Hauptseite:** Gehen Sie zurück ins **Hauptmenü**. Dort müssen Sie die erfassten Daten noch **exportieren** (siehe unten „Daten an MD-Premium übertragen“), damit sie in MD-Premium ankommen.
 
 ## Daten an MD-Premium übertragen
 
-6. Stellen Sie das MDE-Gerät in das **Cradle** (Lade- und Datenübertragungsschale).
-7. Warten Sie, bis am Bildschirm die Meldung **„Daten jetzt übertragen?“** erscheint. Drücken Sie die gelbe Taste **OK** (das Gerät beim Drücken nicht aus dem Cradle heben).
-8. Warten Sie auf das Ende der Übertragung (bestätigt durch einen Piepton und eine Meldung).
+7. Wechseln Sie zurück ins **Hauptmenü** der MDE-App.
+8. Wenn die Schaltfläche **Exportieren** blinkt, sind Daten zum Senden bereit. Tippen Sie auf **Exportieren**, um die abgeschlossenen Inventurbelege per WLAN (FTP) an die Warenwirtschaft zu senden.
+9. Warten Sie auf die Bestätigung (Erfolg/Fehler wird angezeigt).
 
-Die Daten wurden an den Büro-PC gesendet und werden innerhalb von maximal **10 Minuten** in MD-Premium gebucht. Die gezählten Artikel erscheinen dann unter **Inventurartikel bearbeiten** (siehe [Inventurdaten verbuchen](/docs/inventur/inventurdaten-verbuchen)). Die Zone kann danach wieder geöffnet werden.
+Die Daten werden an das System übertragen und in MD-Premium verarbeitet. Die gezählten Artikel erscheinen unter **Inventurartikel bearbeiten** (siehe [Inventurdaten verbuchen](/docs/inventur/inventurdaten-verbuchen)).
 
 ## Screenshots
 
@@ -30,3 +36,4 @@ Die Daten wurden an den Büro-PC gesendet und werden innerhalb von maximal **10 
 - [Inventur allgemein](/docs/inventur/inventur-allgemein)
 - [Inventurerfassung an der Kasse](/docs/inventur/inventurerfassung-kasse)
 - [Inventurdaten verbuchen](/docs/inventur/inventurdaten-verbuchen)
+- [InventarPro (MDE)](/docs/inventarpro/) – Schnellstart und vollständige Anleitung für die InventarPro-App

@@ -90,6 +90,15 @@ const sidebars = {
         'kassa/abschluesse',
       ],
     },
+    {
+      type: 'category',
+      label: 'InventarPro (MDE)',
+      link: { type: 'doc', id: 'inventarpro/index' },
+      items: [
+        'inventarpro/schnellstart',
+        'inventarpro/anleitung',
+      ],
+    },
   ],
 };
 

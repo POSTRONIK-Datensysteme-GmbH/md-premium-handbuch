@@ -1,32 +1,39 @@
-# Captura de inventario con dispositivo portátil
+# Captura de inventario con dispositivo MDE
 
-Cómo realizar la captura de inventario con un dispositivo portátil y transferir los datos a MD-Premium.
+Cómo capturar el inventario con un **dispositivo MDE** (captura móvil de datos) y transferir los datos a MD-Premium. La descripción se basa en la **app InventarPro** en el dispositivo MDE (Android, pantalla táctil).
 
-**Video:** [Inventory capture with handheld](https://youtube.com/shorts/Hqnba0bwY7E)
+**Vídeo:** [Captura de inventario con MDE](https://youtube.com/shorts/Hqnba0bwY7E)
 
-## Create inventory header and count articles
+## Requisitos previos
 
-1. En el menú principal seleccione **INVENTORY**. Se muestra la lista de encabezados de inventario abiertos.
-2. **Nuevo encabezado:** Pulse la tecla azul **NEW**, introduzca el **número de estante (= zona)** a contar en el cuadro de diálogo y confirme con la tecla amarilla **OK** (o **ENTER**). Abra el nuevo encabezado con **ENTER**.
-   **O:** Use **UP** o **DOWN** hasta un encabezado existente y pulse **ENTER**.
-3. Escanee los artículos del inventario. Cada escaneo aumenta el recuento del artículo en 1. O: después del escaneo pulse **ENTER** e introduzca el recuento, confirme con **ENTER**.
-4. **Fin de zona:** Pulse la tecla amarilla **Save**. Vuelve a la lista de encabezados abiertos.
-5. **Cerrar encabezado:** Vaya al encabezado y ciérrelo con la tecla roja **Close**. Confirme con **OK**. **Solo** los encabezados cerrados se transfieren a MD-Premium.
+- El dispositivo MDE está conectado a la **Wi‑Fi de la empresa**.
+- La **base de datos** se ha actualizado antes mediante **Importar** en el menú principal (recomendado a diario antes del primer uso).
 
-## Transfer data to MD-Premium
+## Crear encabezado de inventario y contar artículos
 
-6. Coloque el dispositivo en la **base** (muelle de carga y transferencia de datos).
-7. Espere hasta que aparezca **"Transfer data now?"**. Pulse la tecla amarilla **OK** (mantenga el dispositivo en la base).
-8. Espere a que finalice la transferencia (confirmada por un pitido y un mensaje).
+1. En el **menú principal** de la app MDE, abra la baldosa **Inventario**. Se muestra la lista de encabezados de inventario abiertos.
+2. **Nuevo encabezado:** Pulse **Nuevo**, introduzca opcionalmente **ubicación** o **almacén** (o número de estante/zona) y confirme. Abra el nuevo encabezado tocándolo.  
+   **O:** Seleccione un encabezado de inventario existente en la lista y tóquelo para abrirlo.
+3. **Escanear artículos:** Escanee los códigos de barras de los artículos. Cada escaneo aumenta la cantidad en inventario del artículo en 1. Si hace falta, ajuste la **cantidad** en el campo de cantidad tras escanear.
+4. **Guardar documento:** Pulse **Guardar** (o use la función atrás de la app). Volverá a la lista de encabezados abiertos.
+5. **Cerrar encabezado:** Seleccione el encabezado en la lista y pulse **Cerrar**. **Solo** los encabezados cerrados se transfieren a MD-Premium.
+6. **Exportar en la pantalla principal:** Vuelva al **menú principal**. Ahí debe **exportar** los datos capturados (véase más abajo "Transferir datos a MD-Premium") para que lleguen a MD-Premium.
 
-Los datos se envían al PC de oficina y se contabilizan en MD-Premium en **10 minutos**. Los artículos contados aparecen entonces en **Edit inventory articles** (véase [Post inventory data](/docs/inventur/inventurdaten-verbuchen)). La zona puede reabrirse después.
+## Transferir datos a MD-Premium
 
-## Screenshots
+7. Vuelva al **menú principal** de la app MDE.
+8. Cuando el botón **Exportar** parpadee, hay datos listos para enviar. Pulse **Exportar** para enviar los documentos de inventario cerrados al sistema de gestión vía Wi‑Fi (FTP).
+9. Espere la confirmación (se muestra éxito o error).
 
-![Inventory with handheld](/img/docs/inventur-inventurerfassung-mde-1.png)
+Los datos se transfieren al sistema y se procesan en MD-Premium. Los artículos contados aparecen en **Editar artículos de inventario** (véase [Contabilizar datos de inventario](/docs/inventur/inventurdaten-verbuchen)).
+
+## Capturas de pantalla
+
+![Inventario con dispositivo MDE](/img/docs/inventur-inventurerfassung-mde-1.png)
 
 ## Temas relacionados
 
-- [Inventory overview](/docs/inventur/inventur-allgemein)
-- [Inventory capture at till](/docs/inventur/inventurerfassung-kasse)
-- [Post inventory data](/docs/inventur/inventurdaten-verbuchen)
+- [Inventario general](/docs/inventur/inventur-allgemein)
+- [Captura de inventario en caja](/docs/inventur/inventurerfassung-kasse)
+- [Contabilizar datos de inventario](/docs/inventur/inventurdaten-verbuchen)
+- [InventarPro (MDE)](/docs/inventarpro/) – Inicio rápido y manual completo de la app InventarPro
