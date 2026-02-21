@@ -9,6 +9,7 @@ Ovaj priručnik pomaže u radu sa **MD-Premium trgovinom** od POStronika.
 - **[Inventar](/docs/inventur/)** – Opšti inventar, unos na blagajni ili MDE uređajem, knjiženje, liste
 - **[Novine](/docs/zeitungen/)** – Z-otpremnice, razlike u isporuci, povrati, rezervacije, kontrola faktura
 - **[Narudžbe kupaca](/docs/auftrag-kunden/)** – Narudžbe kupaca, fakture, manjak robe, prebacivanje u automate
+- **[Kasa (XMPS)](/docs/kassa/)** – XMPS softver za kasu: rad (prodaja, storno, povrati …) i zatvaranja (početno stanje, null račun, dnevno zatvaranje)
 
 ## Napomena
 

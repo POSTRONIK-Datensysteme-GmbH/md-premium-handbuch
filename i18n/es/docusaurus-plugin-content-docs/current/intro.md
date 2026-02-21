@@ -9,6 +9,7 @@ Este manual le ayuda a trabajar con la **Gestión comercial MD-Premium** de POSt
 - **[Inventario](/docs/inventur/)** – Inventario general, registro en caja o con MDE, contabilización, listas
 - **[Periódicos](/docs/zeitungen/)** – Albaranes Z, diferencias de entrega, devoluciones, reservas, control de facturas
 - **[Pedidos de clientes](/docs/auftrag-kunden/)** – Pedidos de clientes, facturas, mermas, transferencias a máquinas expendedoras
+- **[Caja (XMPS)](/docs/kassa/)** – Software de caja XMPS: uso (ventas, anulaciones, devoluciones …) y cierres (fondo de caja, ticket nulo, cierre diario)
 
 ## Nota
 

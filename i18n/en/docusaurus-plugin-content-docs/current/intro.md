@@ -9,6 +9,7 @@ This manual helps you work with **MD-Premium Merchandise Management** from POStr
 - **[Inventory](/docs/inventur/)** – General inventory, recording at the till or with MDE, posting, lists
 - **[Newspapers](/docs/zeitungen/)** – Z delivery notes, delivery differences, returns, reservations, invoice control
 - **[Customer Orders](/docs/auftrag-kunden/)** – Customer orders, invoices, shrinkage, vending machine transfers
+- **[Cash Register (XMPS)](/docs/kassa/)** – XMPS till software: operation (sales, void, returns …) and closing (change fund, zero receipt, end-of-day)
 
 ## Note
 
