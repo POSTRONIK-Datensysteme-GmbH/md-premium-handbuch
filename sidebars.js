@@ -9,6 +9,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Warenwirtschaft (MD-Premium)',
+      collapsed: false,
       items: [
         {
           type: 'category',
@@ -45,13 +46,16 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Auftrag Kunden',
-          link: { type: 'doc', id: 'auftrag-kunden/index' },
+          label: 'Inventur',
+          link: { type: 'doc', id: 'inventur/index' },
           items: [
-            'auftrag-kunden/kunden-rechnungen-ausdrucken',
-            'auftrag-kunden/automaten-lager-umbuchung',
-            'auftrag-kunden/warenschwund-erfassen',
-            'auftrag-kunden/md-auftrag-erstellen',
+            'inventur/inventur-allgemein',
+            'inventur/inventurerfassung-kasse',
+            'inventur/inventurerfassung-mde',
+            'inventur/inventurdaten-verbuchen',
+            'inventur/artikel-ohne-inventur-bereinigen',
+            'inventur/inventurliste-stichtag',
+            'inventur/inventurdaten-zuruecksetzen',
           ],
         },
         {
@@ -74,16 +78,13 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Inventur',
-          link: { type: 'doc', id: 'inventur/index' },
+          label: 'Auftrag Kunden',
+          link: { type: 'doc', id: 'auftrag-kunden/index' },
           items: [
-            'inventur/inventur-allgemein',
-            'inventur/inventurerfassung-kasse',
-            'inventur/inventurerfassung-mde',
-            'inventur/inventurdaten-verbuchen',
-            'inventur/artikel-ohne-inventur-bereinigen',
-            'inventur/inventurliste-stichtag',
-            'inventur/inventurdaten-zuruecksetzen',
+            'auftrag-kunden/kunden-rechnungen-ausdrucken',
+            'auftrag-kunden/automaten-lager-umbuchung',
+            'auftrag-kunden/warenschwund-erfassen',
+            'auftrag-kunden/md-auftrag-erstellen',
           ],
         },
       ],
@@ -91,6 +92,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Weitere Produkte',
+      collapsed: false,
       items: [
         {
           type: 'category',
@@ -114,6 +116,7 @@ const sidebars = {
           type: 'category',
           label: 'Erweiterungen',
           link: { type: 'doc', id: 'erweiterungen/index' },
+          collapsed: false,
           items: [
             'erweiterungen/automatenverwaltung',
           ],
