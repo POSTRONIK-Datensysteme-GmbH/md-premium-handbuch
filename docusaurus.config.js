@@ -112,7 +112,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '',
+            title: 'Links',
             items: [
               { label: 'Einstieg', to: '/docs/intro' },
               { label: 'Support', href: 'https://support.postronik.at' },
