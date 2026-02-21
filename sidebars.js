@@ -79,6 +79,15 @@ const sidebars = {
         'auftrag-kunden/md-auftrag-erstellen',
       ],
     },
+    {
+      type: 'category',
+      label: 'Kassa (XMPS)',
+      link: { type: 'doc', id: 'kassa/index' },
+      items: [
+        'kassa/bedienung',
+        'kassa/abschluesse',
+      ],
+    },
   ],
 };
 

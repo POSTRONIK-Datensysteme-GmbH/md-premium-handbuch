@@ -9,6 +9,7 @@ Dieses Handbuch unterstützt Sie bei der Arbeit mit der **MD-Premium Warenwirtsc
 - **[Inventur](/docs/inventur/)** – Inventur allgemein, Erfassung an der Kasse oder mit MDE, Verbuchen, Listen
 - **[Zeitungen](/docs/zeitungen/)** – Z-Lieferscheine, Lieferdifferenzen, Remissionen, Reservierungen, Rechnungskontrolle
 - **[Auftrag Kunden](/docs/auftrag-kunden/)** – Kundenaufträge, Rechnungen, Warenschwund, Automaten-Umbuchung
+- **[Kassa (XMPS)](/docs/kassa/)** – XMPS Kassensoftware: Bedienung (Verkauf, Storno, Retouren …) und Abschlüsse (Wechselgeld, Nullbeleg, Tagesabschluss)
 
 ## Hinweis
 
