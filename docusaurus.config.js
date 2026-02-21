@@ -89,7 +89,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'POStronik Handbuch',
+        title: 'Handbuch',
         logo: {
           alt: 'POStronik',
           src: 'logo.jpg',
@@ -112,49 +112,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Dokumentation',
+            title: '',
             items: [
-              {
-                label: 'Einstieg',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Produkte im Überblick',
-                to: '/docs/produkte-ueberblick',
-              },
-              {
-                label: 'Stammdaten',
-                to: '/docs/stammdaten/',
-              },
-              {
-                label: 'Auftrag Lieferanten',
-                to: '/docs/auftrag-lieferanten/',
-              },
-              {
-                label: 'Inventur',
-                to: '/docs/inventur/',
-              },
-              {
-                label: 'Zeitungen',
-                to: '/docs/zeitungen/',
-              },
-              {
-                label: 'Auftrag Kunden',
-                to: '/docs/auftrag-kunden/',
-              },
-            ],
-          },
-          {
-            title: 'Support',
-            items: [
-              {
-                label: 'POStronik Support',
-                href: 'https://support.postronik.at',
-              },
+              { label: 'Einstieg', to: '/docs/intro' },
+              { label: 'Support', href: 'https://support.postronik.at' },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} POStronik Datensysteme – Dokumentation Warenwirtschaft & Produkte`,
+        copyright: `© ${new Date().getFullYear()} POStronik Datensysteme`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

@@ -14,3 +14,22 @@
   object-fit: contain;
   display: block;
 }
+
+/* Footer kompakter – weniger Höhe und Leerraum */
+.footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+.footer .footer__links {
+  margin-bottom: 0.5rem;
+}
+.footer .footer__link-item {
+  margin-top: 0.25rem;
+}
+.footer .footer__title {
+  margin-bottom: 0.25rem;
+}
+.footer .footer__bottom {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+}
